@@ -1,0 +1,17 @@
+I tried mt level best doing all the other related to more power to aevery one 
+1
+
+In order to push any folder from git bash, you have to make a single file it could be anything text or etc. If you try to push an empty folder your git bash will not give you an error but when you refresh your GitHub you will not see that folder, so in order to push any folder just make a single file and push, after that you can add your stuff and delete the previous file(if you want to).
+
+to push follow the below commands
+
+-git add (folder name) -git add . (in order to push everything) -git commit -m "anything" (to keep track of your changes)
+if not added remote origin then do this
+
+-git remote add origin (your repo link) then to push files -git push -u origin main
+to push on the master branch
+
+-git push -u origin master
+look if you have already created a repo then do
+
+-git push -u origin master
